@@ -1,0 +1,15 @@
+.ship {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 300px;
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+}
