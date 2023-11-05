@@ -26,7 +26,3 @@
 - Фреймворк `React`
 - `TypeScript` для типизации
 - Библиотека `Apollo Client` для `GraphQL` запросов к API
-
-## Деплой
-
-Приложенние развернуто на сервисе `netlify` по адресу [https://warships-skaamoogs.netlify.app/](https://warships-skaamoogs.netlify.app/).
