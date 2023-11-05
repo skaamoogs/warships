@@ -25,7 +25,7 @@
 - Препроцессор CSS `Sass`
 - Фреймворк `React`
 - `TypeScript` для типизации
-- Библиотека `Apollo Client` и для `GraphQL` запросов к API
+- Библиотека `Apollo Client` для `GraphQL` запросов к API
 
 ## Деплой
 
