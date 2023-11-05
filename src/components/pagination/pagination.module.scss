@@ -1,0 +1,47 @@
+$border-radius: 20px;
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+
+  &__item {
+    user-select: none;
+
+    &:first-child {
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+
+    &:last-child {
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    border-radius: inherit;
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    border: none;
+
+    &:hover {
+      background-color: rgba($color: #007bff, $alpha: 0.15);
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    &_active {
+      background-color: #007bff;
+      color: white;
+      pointer-events: none;
+    }
+  }
+}

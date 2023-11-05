@@ -1,7 +1,7 @@
 export interface IShip {
   title: string;
   description: string;
-  level: string;
+  level: number;
   nation: {
     title: string;
     name: string;
