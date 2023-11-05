@@ -1,4 +1,4 @@
-# Posts website
+# Warships
 
 Проект создан при помощи [Create React App](https://github.com/facebook/create-react-app).\
 В приложении используются данные, полученные с API: [https://vortex.korabli.su/api/graphql/glossary/](https://vortex.korabli.su/api/graphql/glossary/)
